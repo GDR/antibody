@@ -59,6 +59,14 @@ $ echo 'source <(antibody init)' >> ~/.zshrc
 This will put the binary in `/usr/local/bin/antibody` and setup your `~/.zshrc`
 to load what is needed on startup.
 
+## Arch Linux
+
+If you have Arch Linux you can install it from AUR.
+
+```console
+$ yaourt -S antibody
+```
+
 ### Usage
 
 Now, you can just `antibody bundle` stuff, e.g.,
